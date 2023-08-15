@@ -1,0 +1,30 @@
+/* all font imports */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+/* import all your css stylesheets over here */
+@import url("./styles/homepage.css");
+
+
+
+
+
+/* all general styles below */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+section{
+    padding:0 103px;
+}
+.button{
+   background-color: #F36326; 
+   border-radius: 8px;
+    color: white;
+   padding: 14px 24px;
+}
