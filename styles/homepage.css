@@ -167,3 +167,88 @@ margin-bottom: 10px;
 height: 80px;
 margin-bottom: 16px;
   }
+
+  .recentPosts h3{
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 37.2px */
+    letter-spacing: 0.155px;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+  }
+
+  .recentPosts h4{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 37.2px */
+    letter-spacing: 0.155px;
+    margin-bottom: 10px;
+    color: #2a2a2a;
+  }
+
+
+  .sectionHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0;
+  }
+
+  .allCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .cardContainer{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+  }
+
+  .cardImage div{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .cardImage div img{
+    width: 100%;
+  }
+
+  .cardContainer .cardImage h5{
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+
+  .cardCaption{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .subtitles{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .cardContainer h5{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 37.2px */
+    letter-spacing: 0.155px;
+    margin-bottom: 10px;
+    color: #9A9AB0;
+  }
