@@ -4,6 +4,8 @@
 
 /* import all your css stylesheets over here */
 @import url("./styles/homepage.css");
+@import url("./styles/about.css");
+@import url("./styles/news.css");
 
 
 
@@ -27,4 +29,9 @@ section{
    border-radius: 8px;
     color: white;
    padding: 14px 24px;
+}
+.blur {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
 }
