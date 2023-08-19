@@ -35,3 +35,10 @@ section{
     backdrop-filter: blur(10px);
 
 }
+/* test is a border for checking elements */
+.test{
+    border: 2px sold red;
+}
+video{
+    width: 100%;
+}
